@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta
+     name="viewport" 
+     content="width=device-width, initial-scale=1.0">
+
+    <title>Baristas</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+</head>
+<body>
+    <header> 
+        <div class="container-hero">
+         <div class="container hero">
+            <div class="costumer-support">
+                <i class="fa-solid fa-headset"></i>
+                <div class="content-customer-support">
+                    <span class="text">Soporte el cliente</span>
+                    <span class="number">4321-8765</span>
+                </div>
+            </div>
+
+            <div class="container-logo">
+                <i class="fa-solid fa-mug-hot"></i>
+				<h1 class="logo"><a href="/">Barista</a></h1>
+            </div>
+
+            <div class="container-user">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-basket-shopping"></i>
+                <div class="container-shopping">
+                <span class="text">Carrito</span>
+                <spa class="number">(0)</spa>
+                </div>
+            </div>
+         </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Moca Helado</a></li>
+                    <li><a href="#">Expreso</a></li>
+                    <li><a href="#">Capuchino</a></li>
+                    <li><a href="#">Mas</a></li>
+                    <li><a href="#">Blog</a></li>
+
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar" />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+       <div class="content-banner">
+        <p>Cafe Delicioso</p>
+        <h2>100% Natural <br>Cafe Fresco</h2>
+        <a href="#">Comprar ahora</a>
+       </div>
+    </section>
+
+   <main class="main-content">
+    <section class="container container-features">
+        <div class="card-feature">
+           <i class="fa-solid fa-plane-up"></i>
+           <div class="feature-content">
+            <span>Envio gratuito </span>
+            <p>En pedido superior a Q150 </p>
+           </div>
+        </div>
+         <div class="card-feature">
+			<i class="fa-solid fa-wallet"></i>
+			<div class="feature-content">
+					<span>Contrareembolso</span>
+					<p>100% garantía de devolución de dinero</p>
+					</div>
+				</div>
+          <div class="card-feature">
+			<i class="fa-solid fa-wallet"></i>
+			<div class="feature-content">
+					<span>Tarjeta de regalo</span>
+					<p>Ofrece bonos especiales con regalo </p>
+					</div>
+				</div>
+        
+         <div class="card-feature">
+					<i class="fa-solid fa-headset"></i>
+					<div class="feature-content">
+						<span>Servicio al cliente 24/7</span>
+						<p>LLámenos 24/7 al 123-456-7890</p>
+					</div>
+				</div>
+    </section>
+
+      <section class="container top-categories">
+        <h1 class="heading-1">Mejores Categorias </h1>
+        <div class="container-categories">
+            <div class="card-category category-moca">
+               <p>Cafe moca</p>
+               <span>Ver mas</span>
+            </div>
+             <div class="card-category category-expreso">
+               <p>Expreso Americano</p>
+               <span>Ver mas</span>
+            </div>
+             <div class="card-category category-capuchino">
+               <p>Capuchino</p>
+               <span>Ver mas</span>
+            </div>
+        </div>
+      </section>
+
+        <section class="container top-products">
+             <h1 class="heading-1">Mejores Productos </h1>
+             <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Mas recientes</span>
+                <span>Mejores vendidos</span>
+             </div>
+
+             <div class="container-products">
+                <!--Producto 1-->
+                   <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-irish.jpg" alt="Cafe Iris">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Iris</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q4.50</p> 
+                    </div>
+                   </div>
+                   <!--Producto 2-->
+                    <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-ingles.jpg" alt="Cafe Ingles">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-solid fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                           <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Ingles</h3>
+                        <span class="add-cart">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q5.00</p> 
+                    </div>
+                   </div>
+                   <!--Producto3-->
+                    <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-australiano.jpg" alt="Cafe Australiano">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-solid fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Cafe Australiano</h3>
+                        <span class="add-cart">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q7.00</p> 
+                    </div>
+                   </div>
+                   <!--Producto4-->
+                    <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-helado.jpg" alt="Cafe Helado">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-solid fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Helado</h3>
+                        <span class="add-cart">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q4.50</p> 
+                    </div>
+                   </div>
+
+             </div>
+        </section>
+
+        <sectio class="gallery"> 
+        <img src="imagenes/gallery1.jpg" alt="Gallery Img1" class="gallery-img-1">
+        <img src="imagenes/gallery2.jpg" alt="Gallery Img2" class="gallery-img-2">
+        <img src="imagenes/gallery3.jpg" alt="Gallery Img3" class="gallery-img-3">
+        <img src="imagenes/gallery4.jpg" alt="Gallery Img4" class="gallery-img-4">
+        <img src="imagenes/gallery5.jpg" alt="Gallery Img5" class="gallery-img-5">
+
+        </sectio>
+
+        <section class="container-specials">
+            <h1 class="heading-1">Especiales </h1>
+             <div class="container-products">
+                <!--Producto 1-->
+                   <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-irish.jpg" alt="Cafe Iris">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Iris</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q4.50</p> 
+                    </div>
+                   </div>
+                   <!--Producto 2-->
+                    <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-ingles.jpg" alt="Cafe Ingles">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-solid fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                           <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Ingles</h3>
+                        <span class="add-cart">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q5.00</p> 
+                    </div>
+                   </div>
+                   <!--Producto3-->
+                    <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-viena.jpg" alt="Cafe Viena">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-solid fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Cafe Viena</h3>
+                        <span class="add-cart">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q10.00</p> 
+                    </div>
+                   </div>
+                   <!--Producto4-->
+                    <div class="card-product">
+                    <div class="container-img">
+                        <img src="imagenes/cafe-liqueurs.jpg" alt="Cafe Liqueurs">
+                        <span class="discount"></span>
+                        <div class="button-group">
+                            <span>
+                             <i class="fa-solid fa-eye"></i>
+                            </span>
+                            <span>
+                             <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                               <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Liqueurs</h3>
+                        <span class="add-cart">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </span>
+                       <p class="price">Q12.50</p> 
+                    </div>
+                   </div>
+             </div>
+        </section>
+
+        <section class="container blogs">
+           <h1 class="heading-1">Ultimos Blogs</h1>
+         <div class="container-blogs">
+            <div class="card-blog">
+                <div class="container-img">
+                    <img src="imagenes/blog-1.jpg" alt="Imagen Blog1">
+                    <div class="button group-blog">
+                        <span>
+                           <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                        <i class="fa-solid fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-blog">
+                <h3>Lorem ipsum dolor sit</h3>
+                <span>6 de noviembre 2025</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat sint, eos molestiae a totam 
+                ducimus quaerat placeat fugit dicta iste, esse repellat quam vero? Nisi quas fugiat perferendis illum?</p>
+                 <div class="btn-read-more">Leer más</div>
+                </div>
+            </div>
+            <!--BLOG2-->
+            <div class="card-blog">
+                <div class="container-img">
+                    <img src="imagenes/blog-2.jpg" alt="Imagen Blog2">
+                    <div class="button group-blog">
+                        <span>
+                           <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                        <i class="fa-solid fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-blog">
+                <h3>Lorem ipsum dolor sit</h3>
+                <span>6 de noviembre 2025</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat sint, eos molestiae a totam 
+                ducimus quaerat placeat fugit dicta iste, esse repellat quam vero? Nisi quas fugiat perferendis illum?</p>
+                 <div class="btn-read-more">Leer más</div>
+                </div>
+            </div>
+            <!--BLOG3-->
+            <div class="card-blog">
+                <div class="container-img">
+                    <img src="imagenes/blog-3.jpg" alt="Imagen Blog3">
+                    <div class="button group-blog">
+                        <span>
+                           <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                        <i class="fa-solid fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-blog">
+                <h3>Lorem ipsum dolor sit</h3>
+                <span>6 de noviembre 2025</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat sint, eos molestiae a totam 
+                ducimus quaerat placeat fugit dicta iste, esse repellat quam vero? Nisi quas fugiat perferendis illum?</p>
+                 <div class="btn-read-more">Leer más</div>
+                </div>
+            </div>
+         </div>
+
+        </section>
+   </main>
+ 
+           <footer class="footer">
+            <div class="container container-footer">
+                <div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección:
+							</li>
+							<li>Teléfono: 4321-8765</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: baristas@support.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Kellys &copy; 2025
+					</p>
+					<img src="imagenes/payment.png" alt="Pagos">
+				</div>
+            </div>
+           </footer>
+
+<script src="https://kit.fontawesome.com/527d4385ba.js" 
+crossorigin="anonymous"></script>
+
+</body>
+</html>
+
