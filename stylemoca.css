@@ -1,0 +1,23 @@
+:root {
+	--primary-color: #c7a17a;
+	--background-color: #f9f5f0;
+	--dark-color: #151515;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container-img {
+  width: 150px;   /* ancho de la imagen */
+  height: 100px;  /* alto de la imagen */
+  object-fit: cover; /* recorta para que no se deforme */
+  border-radius: 10px; /* opcional: bordes redondeados */
+  margin: 10px;
+}
